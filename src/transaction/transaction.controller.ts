@@ -19,7 +19,7 @@ export class TransactionController {
   @ApiOperation({ summary: 'Create Transaction' })
   @ApiResponse({
     status: 201,
-    description: 'The record has been successfully created.',
+    description: 'Record has been successfully created.',
     type: () => CreateTransactionDto,
   })
   @Post()
